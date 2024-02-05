@@ -1,8 +1,8 @@
 # Mise en context et objectifs du travail pratique
 
-Le but de ce travail pratique est de vous familiariser avec le développement d'une application web full stack utilisant une base de données pour assurer la persistance des données. Pour ce faire, vous utiliserez la librairie React pour le côté client et vous vous connecterez à une base de données MongoDB à partir d'un environnement NodeJS/Express pour le côté serveur.
+Le but de ce travail pratique est de se familiariser avec le développement d'une application web full stack utilisant une base de données pour assurer la persistance des données. Pour ce faire, on utilisere la librairie React pour le côté client et on se connecte à une base de données MongoDB à partir d'un environnement NodeJS/Express pour le côté serveur.
 
-L'application à compléter est un système de gestion de listes de chansons (_playlists_) qui permet à l'utilisateur de créer, modifier et supprimer des listes de chansons ainsi que d'écouter les chansons d'une liste spécifique. Le lecteur de musique peut être contrôlé à travers l'interface ou des raccourcis (présentés à la page `/about` à l'aide de la composante `About`).
+L'application est un système de gestion de listes de chansons (_playlists_) qui permet à l'utilisateur de créer, modifier et supprimer des listes de chansons ainsi que d'écouter les chansons d'une liste spécifique. Le lecteur de musique peut être contrôlé à travers l'interface ou des raccourcis (présentés à la page `/about` à l'aide de la composante `About`).
 
 Le code source fourni contient deux applications distinctes, soit une application ReactJS (répertoire `site-web`) ainsi qu'une application NodeJS/Express (répertoire `server`). L'application React est constituée de composantes qui se retrouvent dans les répertoires `components` et `pages`.
 Le serveur, pour sa part, comprend des contrôleurs, des services et des données par défaut que vous pourrez retrouver dans `server/controllers`, `server/services` et `server/data`. C'est le fichier `server.js` qui sera exécuté au lancement du serveur.
